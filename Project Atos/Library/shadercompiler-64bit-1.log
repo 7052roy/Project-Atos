@@ -1,27 +1,27 @@
-Base path: C:/Program Files/Unity/Editor/Data
-Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-13968
+Base path: D:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-6952
 Cmd: getPlatforms
 Cmd: preprocess
-  insize=423 outsize=423 ok=1
+  insize=392 outsize=392 ok=1
 Cmd: preprocess
-  insize=1844 outsize=713 ok=1
+  insize=1707 outsize=655 ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1439 outsize=1006 kw= pd= ok=1
+  api=4 type=0 insize=3093 outsize=2484 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1439 outsize=1006 kw= pd= ok=1
+  api=4 type=1 insize=3093 outsize=1314 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=990 outsize=1087 kw= pd= ok=1
+  api=4 type=0 insize=1257 outsize=1729 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=990 outsize=713 kw= pd= ok=1
+  api=4 type=1 insize=1257 outsize=1639 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=1444 outsize=1217 kw= pd= ok=1
+  api=4 type=0 insize=1034 outsize=1388 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=1444 outsize=673 kw= pd= ok=1
+  api=4 type=1 insize=1034 outsize=543 kw= pd= ok=1
 Cmd: compileSnippet
-  api=4 type=0 insize=959 outsize=1087 kw= pd= ok=1
+  api=4 type=0 insize=6924 outsize=3037 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON pd= ok=1
 Cmd: compileSnippet
-  api=4 type=1 insize=959 outsize=616 kw= pd= ok=1
+  api=4 type=1 insize=6924 outsize=2127 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON pd= ok=1
 Cmd: compileSnippet
-  api=5 type=0 insize=959 outsize=619 kw= pd=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+  api=4 type=0 insize=6924 outsize=4378 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON pd= ok=1
 Cmd: compileSnippet
-  api=5 type=1 insize=959 outsize=6 kw= pd=UNITY_NO_DXT5nm UNITY_NO_RGBM UNITY_NO_SCREENSPACE_SHADOWS UNITY_NO_LINEAR_COLORSPACE ok=1
+  api=4 type=1 insize=6924 outsize=2850 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_COMBINED DYNAMICLIGHTMAP_ON pd= ok=1
