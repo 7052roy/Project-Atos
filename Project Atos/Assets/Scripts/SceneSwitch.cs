@@ -23,7 +23,11 @@ public class SceneSwitch : MonoBehaviour {
                 string name = hit.collider.gameObject.name;
                 if (name == "Screen")
                 {
-                    Application.LoadLevel("Demo_Sphere");
+                    Application.LoadLevel("LiveFeed");
+                }
+                if (name == "Screen2")
+                {
+                    Application.LoadLevel("Course");
                 }
 
                 // Do something with the object that was hit by the raycast.
