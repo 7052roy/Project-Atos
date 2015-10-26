@@ -42,7 +42,7 @@ public class Controller : MonoBehaviour
     {
         if (other.gameObject.name == "Obstacle(Clone)")
         {
-            Application.LoadLevel("Secuirty room");
+            Application.LoadLevel("Security room");
         }
         Destroy(other.gameObject);            //destroy the snag or powerup if colllected by the player
 
