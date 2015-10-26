@@ -29,6 +29,10 @@ public class SceneSwitch : MonoBehaviour {
                 {
                     Application.LoadLevel("Course");
                 }
+                if (name == "Door")
+                {
+                    Application.LoadLevel("runner");
+                }
 
                 // Do something with the object that was hit by the raycast.
             }
