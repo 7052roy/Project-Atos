@@ -15,7 +15,7 @@ public class SceneSwitch : MonoBehaviour {
         RaycastHit hit;
         Ray ray = new Ray(camera.transform.position, camera.transform.forward);
 
-        if (Input.GetButton("Tap"))
+        if (Input.GetButton("Tap") || Input.GetButton("Jump"))
         {
             if (Physics.Raycast(ray, out hit))
             {

@@ -19,7 +19,7 @@ public class Controller : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButton("Tap") && transform.position.y < 3 && jump == false)
+        if((Input.GetButton("Tap") || Input.GetButton("Jump")) && transform.position.y < 3 && jump == false)
         {
             transform.Translate(0f, 0.1f, 0f);
             if(transform.position.y > 2.9f)
