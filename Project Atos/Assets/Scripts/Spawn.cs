@@ -24,6 +24,7 @@ public class Spawn : MonoBehaviour
                 temp.transform.position = new Vector3(pos.x, pos.y, pos.z);
             }
 
+            spawnCycle = Random.Range(0.2f, 0.5f);
             timeElapsed -= spawnCycle;
             spawnPowerup = !spawnPowerup;
         }
