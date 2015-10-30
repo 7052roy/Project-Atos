@@ -29,6 +29,10 @@ public class SceneSwitch : MonoBehaviour {
                 {
                     Application.LoadLevel("Course");
                 }
+                if (name == "Screen3")
+                {
+                    Application.LoadLevel("LiveFeed 1");
+                }
                 if (name == "Door")
                 {
                     Application.LoadLevel("runner");

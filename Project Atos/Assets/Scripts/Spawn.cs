@@ -7,7 +7,7 @@ public class Spawn : MonoBehaviour
     public GameObject powerup;
 
     float timeElapsed = 0;
-    float spawnCycle = 0.5f;
+    float spawnCycle = 1f;
     bool spawnPowerup = true;
 
 
