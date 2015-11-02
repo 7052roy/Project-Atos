@@ -4,10 +4,12 @@ using System.Collections;
 public class SceneSwitch : MonoBehaviour {
 
     public Camera camera;
+    public TextMesh text;
+
 
     void Start()
     {
-        
+        text.text = PlayerPrefs.GetString("player");
     }
 
     void Update()

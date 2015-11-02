@@ -4,7 +4,6 @@ using System.Collections;
 public class Spawn : MonoBehaviour
 {
     public GameObject obstacle;
-    public GameObject powerup;
 
     float timeElapsed = 0;
     float spawnCycle = 1f;
