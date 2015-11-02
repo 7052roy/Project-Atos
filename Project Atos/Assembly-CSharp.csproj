@@ -56,6 +56,7 @@
      <Compile Include="Assets\Scripts\BackButton.cs" />
      <Compile Include="Assets\Scripts\BreakSpring.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CleanUp.cs" />
      <Compile Include="Assets\Scripts\Collectable.cs" />
      <Compile Include="Assets\Scripts\ColorChanger.cs" />
      <Compile Include="Assets\Scripts\Controller.cs" />
@@ -66,11 +67,11 @@
      <Compile Include="Assets\Scripts\PlayerCollisionDetection.cs" />
      <Compile Include="Assets\Scripts\PlayerMovement.cs" />
      <Compile Include="Assets\Scripts\SceneSwitch.cs" />
+     <Compile Include="Assets\Scripts\Scroller.cs" />
      <Compile Include="Assets\Scripts\Spawn.cs" />
      <Compile Include="Assets\Scripts\SpawnMarble.cs" />
      <Compile Include="Assets\Scripts\TriggerScript.cs" />
-     <Compile Include="Assets\Scroller.cs" />
-     <Compile Include="Assets\rotate.cs" />
+     <Compile Include="Assets\Scripts\rotate.cs" />
      <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
      <None Include="Assets\EasyMovieTexture\Chromakey.shader" />
      <None Include="Assets\EasyMovieTexture\readme.txt" />
