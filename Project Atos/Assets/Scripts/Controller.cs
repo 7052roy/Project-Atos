@@ -62,7 +62,19 @@ public class Controller : MonoBehaviour
     {
         if (other.gameObject.name == "Obstacle(Clone)")
         {
-            PlayerPrefs.SetString("player", "player: " + count.ToString());
+            if (PlayerPrefs.GetString("Runner") != null)
+            {
+                if (PlayerPrefs.GetInt("Runner2") <= count)
+                {
+                    PlayerPrefs.SetString("Runner", "Runner: " + count.ToString());
+                    PlayerPrefs.SetInt("Runner2", count);
+                }
+            }
+            else
+            {
+                PlayerPrefs.SetString("Runner", "Runner: " + count.ToString());
+                PlayerPrefs.SetInt("Runner2", count);
+            }
             Application.LoadLevel("Security room");
         }
         Destroy(other.gameObject);            //destroy the snag or powerup if colllected by the player

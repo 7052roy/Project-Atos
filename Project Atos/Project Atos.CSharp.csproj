@@ -74,24 +74,32 @@
     <Compile Include="Assets\EasyMovieTexture\Scripts\MediaPlayerFullScreenCtrl.cs" />
     <Compile Include="Assets\EasyMovieTexture\Scripts\SphereMirror.cs" />
     <Compile Include="Assets\EasyMovieTexture\Scripts\VideoCopyTexture.cs" />
+    <Compile Include="Assets\PrimitivePlus\Scripts\PrimitivePlusEditor.cs" />
     <Compile Include="Assets\Scripts\ActivateGravity.cs" />
     <Compile Include="Assets\Scripts\BackButton.cs" />
     <Compile Include="Assets\Scripts\BreakSpring.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Scripts\Collectable.cs" />
     <Compile Include="Assets\Scripts\ColorChanger.cs" />
     <Compile Include="Assets\Scripts\Controller.cs" />
+    <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\Movement.cs" />
     <Compile Include="Assets\Scripts\Obstacle.cs" />
+    <Compile Include="Assets\Scripts\PlayerCollisionDetection.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\SceneSwitch.cs" />
+    <Compile Include="Assets\Scripts\Scroller.cs" />
     <Compile Include="Assets\Scripts\Spawn.cs" />
     <Compile Include="Assets\Scripts\SpawnMarble.cs" />
     <Compile Include="Assets\Scripts\TriggerScript.cs" />
+    <Compile Include="Assets\Scripts\rotate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\EasyMovieTexture\Chromakey.shader" />
     <None Include="Assets\EasyMovieTexture\Unlit_SphereInside.shader" />
     <None Include="Assets\EasyMovieTexture\readme.txt" />
+    <None Include="Assets\PrimitivePlus\Documentation\ReadMe.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

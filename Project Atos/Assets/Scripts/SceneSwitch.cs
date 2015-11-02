@@ -9,7 +9,7 @@ public class SceneSwitch : MonoBehaviour {
 
     void Start()
     {
-        text.text = PlayerPrefs.GetString("player");
+        text.text = PlayerPrefs.GetString("Runner") + System.Environment.NewLine + PlayerPrefs.GetString("Jetpack");
     }
 
     void Update()
