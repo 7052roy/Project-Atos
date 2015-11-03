@@ -33,7 +33,7 @@ public class SceneSwitch : MonoBehaviour {
                 }
                 if (name == "Screen3")
                 {
-                    Application.LoadLevel("LiveFeed 1");
+                    Application.LoadLevel("2D Minigame");
                 }
                 if (name == "Door")
                 {
