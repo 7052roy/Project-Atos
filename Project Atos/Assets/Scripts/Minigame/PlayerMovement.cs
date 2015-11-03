@@ -32,7 +32,7 @@ public class PlayerMovement : MonoBehaviour
 
        
 
-        if (Input.GetButton("Jump") || Input.GetButton("Tab")) 
+        if (Input.GetButton("Jump") || Input.GetButton("Tap")) 
         {
             //print("up arrow key is held down");
             //transform.rotation = Quaternion.identity;
