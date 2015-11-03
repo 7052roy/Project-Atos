@@ -6,7 +6,7 @@ public class CleanUp : MonoBehaviour {
 	// Update is called once per frame, destroys objects if they get behind the player
 	void Update () 
 	{
-		if (gameObject.transform.position.x < -45.0f) 
+		if (gameObject.transform.position.x < -55.0f) 
 		{
 			Destroy (gameObject);
 		}

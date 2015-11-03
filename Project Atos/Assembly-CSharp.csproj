@@ -54,6 +54,7 @@
      <Compile Include="Assets\PrimitivePlus\Scripts\PrimitivePlusEditor.cs" />
      <Compile Include="Assets\Scripts\ActivateGravity.cs" />
      <Compile Include="Assets\Scripts\BackButton.cs" />
+     <Compile Include="Assets\Scripts\BackgroundScroller.cs" />
      <Compile Include="Assets\Scripts\BreakSpring.cs" />
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CleanUp.cs" />

@@ -28,7 +28,7 @@ public class GameController : MonoBehaviour
         {
             for (int i = 0; i < hazardCount; i++)
             {
-                Vector3 spawnPosition = new Vector3(0f, (Random.Range(-5.5f, 10f)), -9f);
+                Vector3 spawnPosition = new Vector3(0f, (Random.Range(-6.5f, 10f)), -9f);
                 Quaternion spawnRotation = new Quaternion(0, 0, 0, 0);
                 GameObject newHazard = (GameObject)Instantiate(Hazard, spawnPosition, spawnRotation);
                 newHazard.GetComponent<Rigidbody>().velocity = movement;
